@@ -35,13 +35,42 @@ var nombreArticulos = articulos.map(function(articulo){
 });
 nombreArticulos;
 
+/**************************find*********************************/
+/* El método find consiste en encontrar el primer elemento de un array que cumpla con 
+la condición especificada en la función (callback). Si ningún elemento cumpla con la 
+condición, retornará undefined.
+Sin modificar el array creando uno nuevo */
+
+var encuentraArticulo = articulos.find(function(articulo){
+  return articulo.nombre === "Tv"
+});
+encuentraArticulo;
+
+/**************************forEach*********************************/
+/* El método forEach de los arrays consiste en ejecutar una función (callback) para 
+cada uno de los elementos iterados. Iterar significa repetir una acción varias veces. 
+Este método no retorna ningún valor.
+Este ejemplo nos va a buscar una caracteristica especifica de cada uno de nuestro articulos 
+en este ejemplo le pedimos que nos busque el nombre de todo */
+
+articulos.forEach(function(articulo){
+  console.log(articulo.nombre);
+});
+
+/**************************some*********************************/
+/* El método somees inmutable y consiste en retornar un valor lógico verdadero si existe 
+al menos un elemento que cumpla la condición establecida en la función (callback). 
+Unicamente va a retornar si es verdadero o falso*/
+
+var articulosBaratos = articulos.some(function(articulo){
+  return articulo.costo <= 700;
+});
+articuloBaratos;
+
+
+// Pagina por si quieres mas metodos para poder aplicar en JavaScript
+// https://es.javascript.info/array-methods
 
 
 
-
-
-
-
-
-
-
+ 
