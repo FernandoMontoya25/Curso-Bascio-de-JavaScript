@@ -22,6 +22,7 @@ miAuto.color = "rojo"; // y ya con esto lo tiene agregado
 miAuto.marca = "Ford"
 // Como eliminar propiedades de un objeto
 delete miAuto.marca
-
+// Como convertir mi objeto en un array
+Objet.values("nombreDeMiObjeto");
 
  
