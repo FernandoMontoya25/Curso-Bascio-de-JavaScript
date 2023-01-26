@@ -2,13 +2,18 @@
 /* Variable es un lugar en memoria
 Es una representacion de algun lugar en la memoria para guardar datos
 */
-var nombre = "Fernando"
-nombre //llamarla
+// Iniciar variables
+var producto;
+// Asignarle valor
+producto = 'Audifonos Gamers';
+// Iniciar variable y asignarles valor
+var producto = 'Audifononos Gamers'; 
 
-var edad; // Declarar
-edad = 23; //Inicializar
-// Mostrarla en consola
-console.log(nombre) //Fernando
+// Inicializar multiples variables
+var producto = 'Computadora', 
+    disponible = true, 
+    categoria = 'Computadoras';
+var nombre = "Fernando"
 
 // Variable tipo objeto
 var persona = {
