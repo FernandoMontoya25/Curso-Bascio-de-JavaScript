@@ -23,3 +23,14 @@ while(estudiantes.length > 0){
 // estaremos sacando al array de estudiantes
 // Linea 15: Se llama a la funcion 
 // Linea 13: Se visualiza como el array de estudiantes se va quedando sin valores
+
+// Do while loop
+// Primero hace el primer recorrido y despues pregunta
+
+let i = 100;
+
+do {
+    console.log(i);
+    i++;
+} while( i < 10 );
+
