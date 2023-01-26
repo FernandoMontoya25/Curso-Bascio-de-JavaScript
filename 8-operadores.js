@@ -1,37 +1,29 @@
+// Operadores + - * /
 
-// de operación 
-
-3 + 2
-50 - 10
-10 * 3
-20 / 2
-
+// Concatenacion de strings
 "Fernando" + " Montoya" = "Fernando Montoya"
 
 // Operadores Lógicos 
 
-!false // operador not (no)
-
-= // asignacion
-   
-3 == '3' // comparacion
-
-3 === '3' // es estrictamente igual 
-
-5 < 3, 5 <= 3, 5 > 3, 5 >= 3 // menor, menor o igual, mayo, mayor o igual 
-
-a && b // operador and (y), este operador genera una valicación siempe y cuando ambas variables sean verdad, "var 1 y var 2"
-
+!false // Operador not nega todo
+true 
+false
+a && b // Funciona cuando este y este son verdaderos
 true || false // operador or, validacion cuando este o este son verdaderos
 
-/* ================================================================ */ 
 
-// Operador que solo se pueden utilizar con variables 
+// Operadores de comparacion
+= // asignacion
+3 == '3' // comparacion
+3 === '3' // es estrictamente igual 
 
-var edad = 40;
 
-edad++;  // operador de incremento por 1
-edad += 2; 
-
-edad;
+resultado = Math.PI; // Te devuelve el valor de PI
+resultado = Math.round(2.5); // Te redondea el valor
+resultado = Math.ceil(2.1); // Te redondea hacia arriba
+resultado = Math.floor(2.9); // Te redondea hacia abajo
+resultado = Math.sqrt(144); // Raiz cuadrada
+resultado = Math.abs(-200); // Convierte los negativos en positivos
+resultado = Math.min(1,23,23,.4); // Escoge el valor mas chico
+resultado = Math.max(12,23,45); // Escoge el valor mas grande
 /* https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators */
