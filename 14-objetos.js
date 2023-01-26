@@ -24,5 +24,10 @@ miAuto.marca = "Ford"
 delete miAuto.marca
 // Como convertir mi objeto en un array
 Objet.values("nombreDeMiObjeto");
+// Extraer una propiedad de nuestro objeto
+const precioProducto = producto.precio;
+// Unir dos objeto
+const nuevoProducto = {...objeto1, ...objeto2};
+
 
  
